@@ -1,0 +1,185 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+  }
+  
+  h1, h2 {
+    color: #2c3e50;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #3498db;
+  }
+  
+  /* Header Section */
+  header {
+    background-color: #34495e;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  header h2 {
+    font-size: 1.8rem;
+    margin: 5px 0;
+  }
+  
+  header p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  header nav a {
+    color: #ecf0f1;
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  
+  header nav a:hover {
+    color: #3498db;
+  }
+  
+  /* About Section */
+  #about {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  #about p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Skills Section */
+  .skills {
+    background-color: #ecf0f1;
+    padding: 40px 20px;
+  }
+  
+  .skills h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .skills ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  .skills li {
+    background-color: #34495e;
+    color: #ecf0f1;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  /* Resume Section */
+  .resume {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .resume h2 {
+    margin-bottom: 20px;
+  }
+  
+  .resume .cta {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #ffffff;
+    background-color: #3498db;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .resume .cta:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Contact Section */
+  .contact {
+    background-color: #ecf0f1;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    margin-bottom: 20px;
+  }
+  
+  .contact form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .contact label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+  }
+  
+  .contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .contact button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #34495e;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    header nav a {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    .skills ul {
+      flex-direction: column;
+    }
+  
